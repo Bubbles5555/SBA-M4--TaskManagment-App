@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager App</title>
+    <link rel="stylesheet" href="style.css">
+  
+   
+</head>
+<body>
+    <div class="container">
+
+        <div class="title">
+            <h2>Task Manager</h2>
+        </div>
+
+        <p class="alert d-none">All inputs must be filled</p>
+<div class="conatiner">
+        <div class="inputs">
+            <input type="text" id="taskName" class="task-name-input" placeholder="Write a task">
+            <input type="date" id="taskDueDate" class="task-due-date">
+            <select id="priority" class="priority-input">
+                <option value="" disabled selected>Priority</option>
+                <option value="Work">Work </option>
+                <option value="Home">Home</option>
+                <option value="Personal">Personal</option>
+            <br></select> <button class="btn clear-btn d-none">Clear All</button>
+        <button class="btn" id="activeTasks">Active Tasks</button>
+            <button class="btn add-tasks-btn" id="addTask">Add</button></br>
+        </div>
+
+ </div>       
+            <div class="tasks-list">
+                <table class="tasks" id="tasksListing" >
+                    <tr>
+                        <th class="column">Status</th>
+                        <th class="column">Tasks</th>
+                        <th class="column">Priority</th>
+                        <th class="column">Due Date</th>
+                        <th class="column">Actions</th>
+                    </tr>
+                </table>
+            </div>
+       
+       
+       
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

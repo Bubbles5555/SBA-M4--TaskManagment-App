@@ -1,0 +1,84 @@
+filter{
+    margin: 30px 0 10px 0;
+    display: flex;
+    gap: 40px;
+    padding: 4px;
+}
+body{
+    background-color: #118ab2;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+}
+.status-filter{
+    display: flex;
+    text-align: left;
+    gap:2px;
+    margin: 10px 180px -10px 0;
+}
+
+.sorting-filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 -10px 0;
+}
+
+.tasks-list{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:4px;
+    width:460px;
+    
+}
+button{
+    background-color: #ffd166;
+    color: #073b4c;
+    border-radius: 1px;
+    border: 2px solid #ef476f;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+th{
+    padding: 2pxpx;
+    width: 100px;
+    background-color:#073b4c;
+    padding top: 10px;
+    color:pink;
+    font-size: 20px;
+    border-radius: 5px;
+   
+}
+
+td{
+   
+    border: 1px solid #ef476f;
+    text-align: center;
+    
+}
+
+.task-name-input{
+    width:460px;
+    margin-bottom:20px;
+    border-radius: 5px;
+    border: 6px solid #ffd166;
+
+}
+
+.add-tasks-btn{
+    width: 70px;
+}
+
+.task-name-input,
+.task-due-date,
+.priority-input,
+.add-tasks-btn{
+    height: 30px;
+    color: #073b4c;
+    font-size: 12px;
+}
+
+
+
+
